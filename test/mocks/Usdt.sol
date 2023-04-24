@@ -6,7 +6,7 @@ import "openzeppelin-contracts/contracts/token/ERC20/ERC20.sol";
 contract Usdt is ERC20 {
     constructor() ERC20("Tether", "Usdt") {}
 
-    function faucet() public {
-        _mint(msg.sender, 1 ether);
+    function faucet(address to, uint amount) public {
+        _mint(to, amount);
     }
 }

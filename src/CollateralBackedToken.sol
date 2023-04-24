@@ -36,7 +36,7 @@ contract CollateralBackedToken is ERC20 {
 
     // This is the withdraw  function to  remove you funds and return you collateral
     function withdraw(uint withdrawAmount) external {
-        require(balanceOf(msg.sender) >= withdrawAmount, "balance to low");
+        require(balanceOf(msg.sender) >= withdrawAmount, "LOW_BALANCE");
         _burn(msg.sender, withdrawAmount);
         uint collateralReturned = withdrawAmount / price;
         collateral.transfer(msg.sender, collateralReturned);

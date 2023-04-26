@@ -2,7 +2,7 @@
 
 This is a simple project demonstrating how to build a collateral-backed token using Solidity and the Ethereum blockchain. A collateral-backed token is a type of asset-backed token where the value of the token is linked to the value of an underlying asset (such as a stablecoin pegged to a fiat currency). The underlying asset is held as collateral, ensuring the token's value remains stable.
 
-# Please note that I cannot be held responsible for any loss of funds resulting from the use of these contracts. They are intended for educational purposes only and have not been audited
+### Please note that I cannot be held responsible for any loss of funds resulting from the use of these contracts. They are intended for educational purposes only and have not been audited
 
 ## Getting Started
 
